@@ -118,7 +118,8 @@ Movie Budget would also play significant role in reversing % profit for each gen
 It would be nice to visualize the mean/median movie budget for each of the result we provided above.
 
 #### Navigation
-- 'Final_Presentation_Notebook': The final notebook containing our discussion and visualizations
-- 'Cleaned_Data': Notebooks containing the authors preliminary EDA and data cleaning, organization, and modeling in step-wise fashion
+- 'Data Cleaning Process': Folder containing a notebook that has the data cleaning and organization and modeling process for all analysis questions concisely laid out
+- 'Images': Fodler containing the downloaded visualizations from our analysis
 - `ZippedData`: Folder containing all relevant data for the analysis 
-- `README.md`: Display document containing our key findings and this sentence.
+- 'Final_Presentation_Notebook.ipynb': The final notebook containing our discussion and visualizations
+- `README.md`: Display document containing our key findings and visualizations. For more in depth discussion, see the 'Final_Presentation_Notebook.ipynb' file
