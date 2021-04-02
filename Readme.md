@@ -103,7 +103,7 @@ Final Result shows:
 
 ### Analysis #3 - What is the most profitable season to release for the most profitable genre found on Analysis 1?
 
-![Most Profitable Release Season](./CleanData/Most_Profitable_Release_Season.png)
+![Most Profitable Release Season](./Images/Most_Profitable_Release_Season.png)
 1. Adventure Genre proved to be the most profitalbe Genre according to Analysis #1.
 2. Adventure Genre at run_time more than 150 minutes proved to be the second most 
    profitable runtime & genre combination.
