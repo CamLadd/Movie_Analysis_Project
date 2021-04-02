@@ -12,7 +12,7 @@ Our objective is to find out most lucrative solution for each of the sector abov
 
 ## Business Problem
 ***
-Microsoft sees their opportunity to jump into original video content industry along with the other Tech Giants such as Apple, Netflix and Amazon. They have decided to create a new movie studio, but they don't know anything about creating movies. We are charged with exploring all sorts of movie industry data such as budget, gross earning, types of genere, moive runtime, release date, etc. We must effectively translate these raw data into actionable insights that the head of Microsoft's new movie stduio can use to help decide what type of films to create.
+Microsoft sees their opportunity to jump into original video content industry along with the other Tech Giants such as Apple, Netflix and Amazon. They have decided to create a new movie studio, but they don't know anything about creating movies. We are charged with exploring all sorts of movie industry data such as budget, gross earning, types of genere, moive runtime, release date, etc. We must effectively translate these raw data into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
 
 ## Data Understanding
