@@ -69,8 +69,8 @@ We can visulize three important aspects:
    
 10 types of bins were made to categorize run_time based on this visualiation.
 
-![Runtime vs % Profit by Mean](./CleanData/Runtime_vs_%_Profit_by_Mean.png)
-![Runtime vs % Profit by Median](./CleanData/Runtime_vs_%_Profit_by_Median.png)
+![Runtime vs % Profit by Mean](./CleanData/Runtime_vs_profit_mean.png)
+![Runtime vs % Profit by Median](./CleanData/Runtime_vs_profit_median.png)
 
 First graph shows Runtime vs. Mean % Profit & Second graph shows Runtime vs. Median % Profit.
 Both graphs look completely different which tells us there are many outliers that are deprecating mean % profit.
