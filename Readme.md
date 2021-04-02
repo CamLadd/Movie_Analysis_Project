@@ -16,22 +16,29 @@ Microsoft sees their opportunity to jump into original video content industry al
 
 
 ## Data Understanding
-We've used two main dataframes to analyze our findings:
+We've used three main dataframes to analyze our findings:
 1. imdb.title.basics
-    * Runtime_munites
+    * Runtime_minutes
     * Genres
 2. tn.movie.budgts.csv
     * release_date
     * production_budget
     * domestic_gross
     * worldwide_gross
-Using the above two dataframes, we need to merge and clean up to prepare a final dataframe including following Target Variables.
+3. bom_moviegross_df
+    * domestic_gross
+    * worldwide_gross
+    *
+Using the above three dataframes, we need to merge and clean up to prepare a final dataframe including following Target Variables.
 FINAL_DF:
     * Genre (After cleaning with only 1 Genere per row)
     * Runtime_minutes
     * Profit
     * % Profit
     * Release_Season
+    * Domestic_gross
+    * Worldwide_gross
+    * Total_gross
 
 ## Analysis Focus
 
@@ -46,12 +53,13 @@ We used series of data and visualizations to obtain the following results.
 ***
 ### Analysis #1 - What is the most profitable Genre?
 
-![Profitable Genre](./Images/Profitable Genre.png)
-We found out that most Profitable Genre is Adventure closely followed by Action. 
-
+![Average_gross_per_genre.png](./CleanData/Average_gross_per_genre.png)
+We found out that most Profitable Genre is Adventure closely followed by Action.
+![Average_profit_per_genre.png](./CleanData/Average_profit_per_genre.png)
+We found that the correlation between profit and gross is identical, leading to a closer analysis of gross for a more in depth conclusion
 ### Analysis #2 - What is the most profitable running time for the top 8 Genres being made?
 
-![Runtime Abundancy Histogram](./Images/Runtime Abundancy Histogram.png)
+![Runtime Abundancy Histogram](./CleanData/Runtime Abundancy Histogram.png)
 
 We analyzed on the most abundancy of runtime to see have an idea of binning our runtime results.
 We can visulize three important aspects:
@@ -61,8 +69,8 @@ We can visulize three important aspects:
    
 10 types of bins were made to categorize run_time based on this visualiation.
 
-![Runtime vs % Profit by Mean](./Images/Runtime vs % Profit by Mean.png)
-![Runtime vs % Profit by Median](./Images/Runtime vs % Profit by Median.png)
+![Runtime vs % Profit by Mean](./CleanData/Runtime vs % Profit by Mean.png)
+![Runtime vs % Profit by Median](./CleanData/Runtime vs % Profit by Median.png)
 
 First graph shows Runtime vs. Mean % Profit & Second graph shows Runtime vs. Median % Profit.
 Both graphs look completely different which tells us there are many outliers that are deprecating mean % profit.
@@ -80,7 +88,7 @@ Final Result shows:
 
 ### Analysis #3 - What is the most profitable season to release for the most profitable genre found on Analysis 1?
 
-![Most Profitable Release Season](./Images/Most Profitable Release Season.png)
+![Most Profitable Release Season](./CleanData/Most Profitable Release Season.png)
 1. Adventure Genre proved to be the most profitalbe Genre according to Analysis #1.
 2. Adventure Genre at run_time more than 150 minutes proved to be the second most 
    profitable runtime & genre combination.
