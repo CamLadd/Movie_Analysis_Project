@@ -67,7 +67,10 @@ We found out that most Profitable Genre is Adventure closely followed by Action.
 
 ![Average_profit_per_genre.png](./Images/Average_profit_per_genre.png)
 
-We found that the correlation between profit and gross is identical, leading to a closer analysis of gross for a more in depth conclusion
+We found that the correlation between profit and gross is identical, leading to the same conclusion that Adventure is in fact the most profitable genre amongst the top 8 genres. 
+
+The visualization depicting the average gross has bars that are conveniently stacked into two seperate categories: "Domestic Profit", and "Worldwide Profit". When analyzing 'Adventure', we see that it performs markedly better overseas than it does in the domestic setting. This analysis leads to the following conclusion for a proper course of action for the Microsoft Company: 
+Prior to the release of any movie of the genre 'Adventure', Microsoft should consider investing in preliminary and aggressive action to secure movie distribution rights and begin advertisement in international countries of interest.
 
 ### Analysis #2 - What is the most profitable running time for the top 8 Genres being made?
 
