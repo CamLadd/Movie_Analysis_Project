@@ -63,7 +63,7 @@ We used series of data and visualizations to obtain the following results. We de
 
 ![Average_gross_per_genre.png](./Images/Average_gross_per_genre.png)
 
-We found out that most Profitable Genre is Adventure closely followed by Action.
+
 
 ![Average_profit_per_genre.png](./Images/Average_profit_per_genre.png)
 
