@@ -60,7 +60,7 @@ By relating above variables, our aim is to find out solutions to 3 critical ques
 ***
 We used series of data and visualizations to obtain the following results. We decided to narrow our genre analysis to only the top 8 genres based on occurence, due to the larger amount of data points to deal and also the higher popularity that is implied by the higher occurence rates.
 
-![Genre_count-2.png](./CleanData/Genre_count-2.png)
+![Genre_count-2.png](./CleanData/Genre_count.png)
 ***
 ### Analysis #1 - What is the most profitable Genre?
 
