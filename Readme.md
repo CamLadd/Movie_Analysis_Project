@@ -16,7 +16,7 @@ Microsoft sees their opportunity to jump into original video content industry al
 
 
 ## Data Understanding
-We've used three main dataframes to analyze our findings:
+We've used two main dataframes to analyze our findings:
 1. imdb.title.basics
     * Runtime_minutes
     * Genres
@@ -25,11 +25,8 @@ We've used three main dataframes to analyze our findings:
     * production_budget
     * domestic_gross
     * worldwide_gross
-3. bom_moviegross_df
-    * domestic_gross
-    * worldwide_gross
 
-Using the above three dataframes, we need to merge and clean up to prepare a final dataframe including following Target Variables.
+Using the above two dataframes, we need to merge and clean up to prepare a final dataframe including following Target Variables.
 
 FINAL_DF:
 
