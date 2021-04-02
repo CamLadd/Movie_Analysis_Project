@@ -59,7 +59,7 @@ We found out that most Profitable Genre is Adventure closely followed by Action.
 We found that the correlation between profit and gross is identical, leading to a closer analysis of gross for a more in depth conclusion
 ### Analysis #2 - What is the most profitable running time for the top 8 Genres being made?
 
-![Runtime Abundancy Histogram](./CleanData/Runtime Abundancy Histogram.png)
+![Runtime Abundancy Histogram](./CleanData/Runtime_Abundancy_Histogram.png)
 
 We analyzed on the most abundancy of runtime to see have an idea of binning our runtime results.
 We can visulize three important aspects:
@@ -69,8 +69,8 @@ We can visulize three important aspects:
    
 10 types of bins were made to categorize run_time based on this visualiation.
 
-![Runtime vs % Profit by Mean](./CleanData/Runtime vs % Profit by Mean.png)
-![Runtime vs % Profit by Median](./CleanData/Runtime vs % Profit by Median.png)
+![Runtime vs % Profit by Mean](./CleanData/Runtime_vs_%_Profit_by_Mean.png)
+![Runtime vs % Profit by Median](./CleanData/Runtime_vs_%_Profit_by_Median.png)
 
 First graph shows Runtime vs. Mean % Profit & Second graph shows Runtime vs. Median % Profit.
 Both graphs look completely different which tells us there are many outliers that are deprecating mean % profit.
@@ -88,7 +88,7 @@ Final Result shows:
 
 ### Analysis #3 - What is the most profitable season to release for the most profitable genre found on Analysis 1?
 
-![Most Profitable Release Season](./CleanData/Most Profitable Release Season.png)
+![Most Profitable Release Season](./CleanData/Most_Profitable_Release_Season.png)
 1. Adventure Genre proved to be the most profitalbe Genre according to Analysis #1.
 2. Adventure Genre at run_time more than 150 minutes proved to be the second most 
    profitable runtime & genre combination.
