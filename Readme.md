@@ -28,6 +28,7 @@ We've used three main dataframes to analyze our findings:
 3. bom_moviegross_df
     * domestic_gross
     * worldwide_gross
+
 Using the above three dataframes, we need to merge and clean up to prepare a final dataframe including following Target Variables.
 
 FINAL_DF:
