@@ -32,13 +32,21 @@ We've used three main dataframes to analyze our findings:
 Using the above three dataframes, we need to merge and clean up to prepare a final dataframe including following Target Variables.
 
 FINAL_DF:
+
     * Genre (After cleaning with only 1 Genere per row)
+    
     * Runtime_minutes
+    
     * Profit
+    
     * % Profit
+    
     * Release_Season
+    
     * Domestic_gross
+    
     * Worldwide_gross
+    
     * Total_gross
 
 ## Analysis Focus
