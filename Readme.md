@@ -49,14 +49,20 @@ By relating above variables, our aim is to find out solutions to 3 critical ques
 
 ## Methods & Results
 ***
-We used series of data and visualizations to obtain the following results.
+We used series of data and visualizations to obtain the following results. We decided to narrow our genre analysis to only the top 8 genres based on occurence, due to the larger amount of data points to deal and also the higher popularity that is implied by the higher occurence rates.
+
+![Genre_count-2.png](attachment:Genre_count-2.png)
 ***
 ### Analysis #1 - What is the most profitable Genre?
 
 ![Average_gross_per_genre.png](./CleanData/Average_gross_per_genre.png)
+
 We found out that most Profitable Genre is Adventure closely followed by Action.
+
 ![Average_profit_per_genre.png](./CleanData/Average_profit_per_genre.png)
+
 We found that the correlation between profit and gross is identical, leading to a closer analysis of gross for a more in depth conclusion
+
 ### Analysis #2 - What is the most profitable running time for the top 8 Genres being made?
 
 ![Runtime Abundancy Histogram](./CleanData/Runtime_Abundancy_Histogram.png)
